@@ -1,0 +1,6 @@
+{
+  "name": "대전역카페조선",
+  "description": "대전역 3번 출구 도보 1분 카페조선. 대표 대전역카페, 대전빙수 눈꽃빙수, 8~60인 대전역회의실 대관 전문.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

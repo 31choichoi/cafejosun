@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  }
+}
+
+.font-serif-kr {
+  font-family: 'Noto Serif KR', 'Gowun Batang', serif;
+}
+
+.font-batang {
+  font-family: 'Gowun Batang', 'Noto Serif KR', serif;
+}
+
+/* Custom subtle traditional pattern or paper texture overlay */
+.bg-hanji {
+  background-color: #FBF8F2;
+  background-image: radial-gradient(#E8DFD1 0.75px, transparent 0.75px), radial-gradient(#E8DFD1 0.75px, #FBF8F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
