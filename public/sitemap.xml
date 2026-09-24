@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- 1. 메인 홈페이지 (대전역카페조선 - 대전역카페 · 대전역회의실 · 대전빙수) -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&amp;auto=format&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>대전역카페조선 전경 및 고즈넉한 한옥 감성 인테리어</image:title>
+      <image:caption>대전역 3번 출구 도보 1분 거리의 전통과 현대가 어우러진 대전역카페 카페조선</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 2. 대전역회의실 대관 전문 (8인~60인 세미나실, 빔프로젝터, 케이터링) -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=meeting</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=1200&amp;auto=format&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>대전역회의실 세미나룸 대관 60인 시설</image:title>
+      <image:caption>KTX 대전역 1분 거리 전국 집결형 비즈니스 회의실 및 세미나 대관 공간</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 3. 대전빙수 대표 맛집 & 시그니처 디저트 (조선빙수, 십억차, 두바이조선떡) -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=signature</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=1200&amp;auto=format&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>대전빙수 명소 카페조선 시그니처 조선빙수 (설산 우유 눈꽃빙수)</image:title>
+      <image:caption>히말라야 설산 비주얼을 자랑하는 사계절 부드러운 대전 눈꽃빙수</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 4. 대전역카페 메뉴 & 전통차 (비타민 십억차, 쌍화차, 대추차, 스페셜티 커피) -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=menu</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 5. 대전역카페 오시는 길 (대전역 3번 출구 도보 1분 TRY 오른쪽 옆건물) -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=location</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 6. 대전역카페조선 브랜드 소개 & 공간 철학 -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=about</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 7. 방문객 실시간 리뷰 & 빅데이터 검증 (대전역카페, 대전역회의실, 대전빙수 평점) -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=reviews</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 8. 회의실 대관 예약 문의 & 매장 소식 -->
+  <url>
+    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=news</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,24 @@
+# robots.txt for 대전역카페조선 (공식 웹사이트)
+# Target Keywords: 대전역카페, 대전역회의실, 대전빙수
+
+User-agent: *
+Allow: /
+
+# 네이버 서치어드바이저 수집 로봇 (Yeti)
+User-agent: Yeti
+Allow: /
+
+# 구글 서치콘솔 수집 로봇 (Googlebot)
+User-agent: Googlebot
+Allow: /
+
+# 다음/카카오 검색 수집 로봇 (Daumoa)
+User-agent: Daumoa
+Allow: /
+
+# 마이크로소프트 Bing 수집 로봇 (bingbot)
+User-agent: bingbot
+Allow: /
+
+# 사이트맵 경로 안내
+Sitemap: https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/sitemap.xml

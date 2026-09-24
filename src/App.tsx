@@ -21,7 +21,23 @@ import { NewsContactSection } from './components/NewsContactSection';
 import { Phone, Users, ArrowUp, Train } from 'lucide-react';
 
 export default function App() {
-  const [currentTab, setCurrentTab] = useState<TabType>('home');
+  const getInitialTab = (): TabType => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = params.get('tab') as TabType;
+      const validTabs: TabType[] = ['home', 'about', 'menu', 'signature', 'meeting', 'gallery', 'location', 'reviews', 'news'];
+      if (tabParam && validTabs.includes(tabParam)) {
+        return tabParam;
+      }
+      const hash = window.location.hash.replace('#', '') as TabType;
+      if (hash && validTabs.includes(hash)) {
+        return hash;
+      }
+    }
+    return 'home';
+  };
+
+  const [currentTab, setCurrentTab] = useState<TabType>(getInitialTab);
   const [user, setUser] = useState<User | null>(null);
   const [lang, setLang] = useState<'ko' | 'en'>('ko');
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -36,9 +52,20 @@ export default function App() {
     };
     window.addEventListener('scroll', handleScroll);
 
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = (params.get('tab') || 'home') as TabType;
+      const validTabs: TabType[] = ['home', 'about', 'menu', 'signature', 'meeting', 'gallery', 'location', 'reviews', 'news'];
+      if (validTabs.includes(tabParam)) {
+        setCurrentTab(tabParam);
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
+
     return () => {
       unsubscribe();
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('popstate', handlePopState);
     };
   }, []);
 
@@ -48,6 +75,15 @@ export default function App() {
 
   const handleTabChange = (tab: TabType) => {
     setCurrentTab(tab);
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      if (tab === 'home') {
+        url.searchParams.delete('tab');
+      } else {
+        url.searchParams.set('tab', tab);
+      }
+      window.history.pushState({}, '', url.toString());
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
