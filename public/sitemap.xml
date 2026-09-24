@@ -5,7 +5,7 @@
   
   <!-- 1. 메인 홈페이지 (대전역카페조선 - 대전역카페 · 대전역회의실 · 대전빙수) -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/</loc>
+    <loc>https://cafejosun.com/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -18,7 +18,7 @@
 
   <!-- 2. 대전역회의실 대관 전문 (8인~60인 세미나실, 빔프로젝터, 케이터링) -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=meeting</loc>
+    <loc>https://cafejosun.com/?tab=meeting</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -31,7 +31,7 @@
 
   <!-- 3. 대전빙수 대표 맛집 & 시그니처 디저트 (조선빙수, 십억차, 두바이조선떡) -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=signature</loc>
+    <loc>https://cafejosun.com/?tab=signature</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
@@ -44,7 +44,7 @@
 
   <!-- 4. 대전역카페 메뉴 & 전통차 (비타민 십억차, 쌍화차, 대추차, 스페셜티 커피) -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=menu</loc>
+    <loc>https://cafejosun.com/?tab=menu</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -52,7 +52,7 @@
 
   <!-- 5. 대전역카페 오시는 길 (대전역 3번 출구 도보 1분 TRY 오른쪽 옆건물) -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=location</loc>
+    <loc>https://cafejosun.com/?tab=location</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -60,7 +60,7 @@
 
   <!-- 6. 대전역카페조선 브랜드 소개 & 공간 철학 -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=about</loc>
+    <loc>https://cafejosun.com/?tab=about</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
@@ -68,7 +68,7 @@
 
   <!-- 7. 방문객 실시간 리뷰 & 빅데이터 검증 (대전역카페, 대전역회의실, 대전빙수 평점) -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=reviews</loc>
+    <loc>https://cafejosun.com/?tab=reviews</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -76,7 +76,7 @@
 
   <!-- 8. 회의실 대관 예약 문의 & 매장 소식 -->
   <url>
-    <loc>https://ais-pre-2nwk4tqoshj2r7bz7cz6th-575071967874.asia-east1.run.app/?tab=news</loc>
+    <loc>https://cafejosun.com/?tab=news</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
